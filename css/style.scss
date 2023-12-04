@@ -1,0 +1,54 @@
+@use "destyle";
+@use "header";
+@use "drawerButton";
+@use "news";
+@use "consept";
+@use "employess";
+@use "menu";
+@use "access";
+@use "contact";
+@use "footer";
+
+body {
+    scroll-behavior: smooth;
+    color: black;
+    background-image: url(../images/logo/background.png);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Chonburi', serif;
+    font-family: 'Kaisei Tokumin', serif;
+    font-family: 'Shippori Mincho B1', serif;
+    font-family: 'Kaisei Tokumin', serif;
+    font-family: 'Shippori Mincho B1', serif;
+    ;
+    line-height: 1.7rem;
+    position: relative;
+
+    #bodyMargin {
+        margin: 0 2rem;
+    }
+}
+
+.mainTitle {
+    font-weight: bold;
+    font-size: 2.2rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    display: inline;
+    padding: 0.5rem 2rem 1rem;
+    text-align: center;
+
+    @media (width <=768px) {
+        display: block;
+    }
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: black;
+}
+
+
+

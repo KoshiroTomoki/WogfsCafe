@@ -1,0 +1,161 @@
+#consept {
+    margin: 0 auto 10rem;
+    position: relative;
+
+    .conseptTextBox {
+        position: absolute;
+        top: 52.3%;
+        left: 46%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(255, 255, 255, 0.8);
+        border: black 1px solid;
+        max-width: 700px;
+        width: 100%;
+        height: 69.5%;
+        grid-column: 2/4;
+        grid-row: 2/4;
+        z-index: 7;
+
+        @media (width <=768px) {
+            top: 54%;
+            left: 50%;
+            width: 90%;
+            height: 60%;
+        }
+
+        @media (width <=450px) {
+            top: 50%;
+            left: 50%;
+            width: 90%;
+            height: 60%;
+        }
+    }
+
+    .conseptGrid {
+        display: grid;
+        max-width: 1050px;
+
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        margin: 0 auto;
+
+        @media (width <=768px) {
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+        }
+
+        @media (width <=450px) {
+            grid-template-columns: 1fr 1fr 1fr 1fr ;
+            grid-template-rows: 1fr 1fr 1fr 1fr ;
+        }
+
+
+        p {
+            img {
+                max-width: 100%;
+                /* 親要素に合わせて最大幅を設定 */
+                max-height: 100%;
+                /* 親要素に合わせて最大高さを設定 */
+                object-fit: cover;
+                /* アスペクト比を維持して収める */
+            }
+        }
+
+        .conseptImg01 {
+            grid-column: 1/6;
+            grid-row: 2/6;
+            z-index: 8;
+            max-width: 620px;
+
+            @media (width <=768px) {
+                grid-column: 1/4;
+                grid-row: 1/3;
+            }
+            @media (width <=450px) {
+                
+                grid-column: 1/5;
+                grid-row: 1/2;
+            }
+        }
+
+        .conseptText01 {
+            grid-column: 4/10;
+            grid-row: 3/5;
+            z-index: 10;
+            background-color: white;
+
+            max-width: 620px;
+            height: 12rem;
+            padding: 0 1rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transform: translateY(1rem);
+
+            @media (width <=768px) {
+                grid-column: 1/8;
+                grid-row: 2/3;
+                height: 8rem;
+            }
+
+            @media (width <=450px) {
+                height: 10rem;
+                grid-row: 2/3;
+                padding: 1rem;
+                font-size: 0.9rem;
+            }
+
+            span {
+                font-size: 2rem;
+
+                @media (width <=768px) {
+                    font-size: 1.3rem;
+                }
+            }
+        }
+
+        .conseptText02 {
+            grid-column: 1/7;
+            grid-row: 5/8;
+            z-index: 10;
+
+            background-color: white;
+            max-width: 620px;
+            height: 12rem;
+            padding: 0 1rem; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            @media (width <=768px) {
+                grid-column: 1/10;
+                grid-row: 3/4;
+                height: 8rem;
+                margin-top: 1rem;
+            }
+
+            @media (width <=450px) {
+                grid-row: 3/4;
+                padding: 1rem;
+            }
+            font-size: 0.9rem;
+        }
+
+        .conseptImg02 {
+            grid-column: 4/10;
+            grid-row: 5/10;
+            z-index: 8;
+            max-width: 620px;
+
+            @media (width <=768px) {
+                grid-column: 3/10;
+                grid-row: 4/6;
+            }
+
+            @media (width <=450px) {
+                grid-column: 1/10;
+                grid-row: 4/5;
+            }
+        }
+    }
+}

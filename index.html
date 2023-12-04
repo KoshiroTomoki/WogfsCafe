@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="robots" content="noindex,nofollow" /> <!-- 検索で出てこないようにするやつ。 -->
+
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Chonburi&family=Kaisei+Tokumin:wght@500&family=Shippori+Mincho+B1&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@500&family=Shippori+Mincho+B1&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+
+</head>
+
+<body>
+
+    <!----------------------------------------- Top -->
+    <main id="mainContainer">
+        <div class="stickyContainer">
+            <div class="sticky">
+
+                <div>
+                    <div class="headerTag"></div>
+                    <nav class="headerNav displayNone">
+                        <ul>
+                            <li><a href="#mainContainer">Home</a></li>
+                            <li><a href="#consept">Consept</a></li>
+                            <li><a href="#employees">Employees</a></li>
+                            <li><a href="#menu">Menu</a></li>
+                            <li><a href="#access">Access</a></li>
+                            <li><a href="#SNSBox">SNS</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </nav>
+                    <div class="headerTag"></div>
+                </div>
+
+                <!-- ドロワーボタン -->
+                <button class="toggleButton">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+                <!-- ドロワーメニュー -->
+                <nav id="drawerMenu">
+                    <ul>
+                        <li><a href="#mainContainer">Home</a></li>
+                        <li><a href="#consept">Consept</a></li>
+                        <li><a href="#employees">Employees</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#access">Access</a></li>
+                        <li><a href="#SNSBox">SNS</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <header>
+                <p class="topLogo animate__animated animate__slow fadeInTarget"><img src="images/logo/headerlogo.png"
+                        alt="WogfsCafe logo"></p>
+            </header>
+
+            <div id="bodyMargin">
+
+                <!----------------------------------------- news -->
+                <section id="news" class="animate__animated animate__slow fadeInTarget">
+                    <h2 class="mainTitle">News</h2>
+                    <div class="bunnerContainer">
+                        <p><a href="#mainContainer"><img src="images/logo/bunner01.png" alt=""></a></p>
+                        <p><a href="#mainContainer"><img src="images/logo/bunner02.png" alt=""></a></p>
+                    </div>
+                </section>
+
+                <!----------------------------------------- consept -->
+
+                <section id="consept" class="animate__animated animate__slow fadeInTarget">
+                    <h2 class="mainTitle">Consept</h2>
+                    <div class="conseptTextBox"> </div>
+                    <div class="conseptGrid">
+                        <p class="conseptImg01"><img src="images/picture/concept-cafe-bar.png" alt=""></p>
+                        <div class="conseptText01">
+                            <p class=""><span>”犬が接客する”</span>想像上でしかなかった非日常の空間<br>
+                                賢いスタッフ犬がお席の案内、注文を受け、配膳までしてくれます。</p>
+                        </div>
+                        <p class="conseptText02">仕事に疲れている貴方へ。人とのコミュニケーションに疲れている貴方へ。
+                            犬との不思議な空間をお楽しみください。</p>
+                        <p class="conseptImg02"><img src="images/picture/concept-dog.png" alt=""></p>
+                    </div>
+                </section>
+
+                <!----------------------------------------- employees -->
+
+                <section id="employees" class="animate__animated animate__slow fadeInTarget">
+                    <h2 class="mainTitle">Emplpyess</h2>
+                    <div class="employeesExplanation">
+                        <p>Wogfs Cafeのスタッフ犬は特殊な訓練を受けており、接客に特化したスキルを持っています。<br>
+                            一匹一匹が誇りを持って仕事をしている姿を、暖かく見守ってあげてください。 </p>
+                    </div>
+
+                    <div class="employeesBackground"></div>
+
+                    <!--スライダー-->
+                    <div class="swiper animate__animated animate__slow fadeInTarget">
+                        <div class="slider swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide slide1">
+                                    <div class="employeesImg"><img src="images/dog/dog01.jpeg" alt=""></div>
+                                    <div class="employeesText">
+                                        <h3>JIN</h3>
+                                        <p>Wogf Cafeのスタッフリーダー<br>
+                                            最近お客様の空気を読めるようになってきました。<br>
+                                            <br>
+                                            性格：冷静<br>
+                                            好きな食べ物：ローストビーフ
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide slide2">
+                                    <div class="employeesImg"><img src="images/dog/dog02.jpeg" alt=""></div>
+                                    <div class="employeesText">
+                                        <h3>椿</h3>
+                                        <p>Wogfs Cafeのサブリーダー<br>
+                                            <br>
+                                            無駄のない動きでテキパキと案内や配膳をします。
+                                            <br>
+                                            性格：忠実<br>
+                                            好きな食べ物：鹿肉
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide slide3">
+                                    <div class="employeesImg"><img src="images/dog/dog03.jpeg" alt=""></div>
+                                    <div class="employeesText">
+                                        <h3>龍</h3>
+                                        <p>Wogfs Cafeのムードメーカー
+                                            <br>
+                                            お客様と一緒に喜んでいる姿をよく見ます。<br>
+                                            <br>
+                                            性格：陽気<br>
+                                            好きな食べ物：ビーフジャーキー
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide slide4">
+                                    <div class="employeesImg"><img src="images/dog/dog04.jpeg" alt=""></div>
+                                    <div class="employeesText">
+                                        <h3>TAKUYA</h3>
+                                        <p>たまに接客をサボってお客様にべったりくっつくことも。<br>
+                                            <br>
+                                            性格：寂しがり屋<br>
+                                            好きな食べ物：コンビーフ
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide slide5">
+                                    <div class="employeesImg"><img src="images/dog/dog05.jpeg" alt=""></div>
+                                    <div class="employeesText">
+                                        <h3>楓</h3>
+                                        <p>Wogfs Cafeの紅一点<br>
+                                            <br>
+                                            凛とした態度で案内や接客します。<br>
+                                            <br>
+                                            性格：穏やか<br>
+                                            好きな食べ物：ワニ肉
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide slide6">
+                                    <div class="employeesImg"><img src="images/dog/dog06.jpeg" alt=""></div>
+                                    <div class="employeesText">
+                                        <h3>海</h3>
+                                        <p>Wogfs Cafeの弟分<br>
+                                            <br>
+                                            興奮すると配膳の料理を落とすことがあるので配膳担当から外しました。<br>
+                                            <br>
+                                            性格：活発<br>
+                                            好きな食べ物：野菜
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-button-next displayNone"></div>
+                            <div class="swiper-button-prev displayNone"></div>
+
+                        </div>
+                    </div>
+                    <!-- サムネイル -->
+                    <div class="swiper-thumbnail">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide slideimg">
+                                <img src="images/dog/dog01.jpeg" alt="">
+                            </div>
+                            <div class="swiper-slide slideimg">
+                                <img src="images/dog/dog02.jpeg" alt="">
+                            </div>
+                            <div class="swiper-slide slideimg">
+                                <img src="images/dog/dog03.jpeg" alt="">
+                            </div>
+                            <div class="swiper-slide slideimg">
+                                <img src="images/dog/dog04.jpeg" alt="">
+                            </div>
+                            <div class="swiper-slide slideimg">
+                                <img src="images/dog/dog05.jpeg" alt="">
+                            </div>
+                            <div class="swiper-slide slideimg">
+                                <img src="images/dog/dog06.jpeg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="googleCalendar animate__animated animate__slow fadeInTarget">
+                        <iframe
+                            src="https://calendar.google.com/calendar/embed?src=a64ad95cff7ad70f75ba19633017690e2879e097cf3b558b411f9585a0b0c355%40group.calendar.google.com&ctz=Asia%2FTokyo"
+                            ></iframe>
+                    </div>
+                </section>
+
+                <!----------------------------------------- menu -->
+
+                <section id="menu" class="animate__animated animate__slow fadeInTarget">
+                    <h2 class="mainTitle">Menu</h2>
+                    <p class="menuExplanation">Wogfs
+                        Cafeでは、犬の散歩と一緒に毎朝市場で新鮮な食材を仕入れています。<br>最近はスタッフ犬も新鮮な食材を見分けれるようになりました。鮮度抜群の食材使った料理を十分にご堪能ください。</p>
+
+                    <div class="menuFood animate__animated animate__slow fadeInTarget">
+                        <h3>FOOD</h3>
+                        <div class="menuPicture">
+                            <div class="menuPicture01">
+                                <p><img src="images/menu/pasta.png" alt=""></p>
+                                <h3 class="menuTitle">日替わりスパゲッティ</h3>
+                                <p class="menuText">当日仕入れた野菜やお肉ををたっぷり使った新鮮なスパゲッティです。 </p>
+                            </div>
+                            <div class="menuPicture01">
+                                <p class="img2"><img src="images/menu/ma-bo-.png" alt=""></p>
+                                <h3 class="menuTitle">特製麻婆豆腐</h3>
+                                <p class="menuText">辛めに作った麻婆豆腐です。匂いがきつく犬もたまに配膳を嫌がるため、人間の
+                                    スタッフがお持ちします。</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menuFood animate__animated animate__slow fadeInTarget">
+                        <h3>BREAD</h3>
+                        <div class="menuPicture">
+                            <div class="menuPicture01">
+                                <p><img src="images/menu/burger.png" alt=""></p>
+                                <h3 class="menuTitle">Wogfs burger</h3>
+                                <p class="menuText">WogfsCafe名物のハンバーガーです。朝仕入れた
+                                    新鮮な野菜と厳選したお肉を使っています。</p>
+                            </div>
+                            <div class="menuPicture01">
+                                <p><img src="images/menu/sandwich.png" alt=""></p>
+                                <h3 class="menuTitle">ホットプレートサンド</h3>
+                                <p class="menuText">新鮮な野菜をたっぷり使ったヘルシーなホットプレートサンドです。 </p>
+                            </div>
+                            <div class="menuPicture01">
+                                <p><img src="images/menu/waffle.png" alt=""></p>
+                                <h3 class="menuTitle">Wogfs waffle</h3>
+                                <p class="menuText">Wogfs店内で作っているこだわりのワッフルです。</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menuFood animate__animated animate__slow fadeInTarget">
+                        <h3>DRINK</h3>
+                        <div class="menuPicture">
+                            <div class="menuPicture01">
+                                <p><img src="images/menu/coffee.png" alt=""></p>
+                                <h3 class="menuTitle">Wogfs coffee</h3>
+                                <p class="menuText">店主こだわりのコーヒーです。</p>
+                            </div>
+                            <div class="menuPicture01">
+                                <p><img class="img7" src="images/menu/cider.png" alt=""></p>
+                                <h3 class="menuTitle"> grape cider</h3>
+                                <p class="menuText , menuText7">産地直送の葡萄をふんだんに使ったサイダーです。アルコール入りにもできます。</p>
+                            </div>
+                            <div class="menuPicture01">
+                                <p><img src="images/menu/beer.png" alt=""></p>
+                                <h3 class="menuTitle">beer</h3>
+                                <p class="menuText">キリン・アサヒから
+                                    お選びいただけます。</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <div id="accessMargin"></div>
+            </div><!------------------------------------ /bodyMargin -->
+        </div><!------------------------------------ /sticky -->
+
+        <!----------------------------------------- access -->
+
+        <div id="accessBackground">
+            <section id="access" class="animate__animated animate__slow fadeInTarget">
+                <h2 class="mainTitle">Access</h2>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.2311523951735!2d135.19049577609843!3d34.69934928328467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60008ee71dee802f%3A0xca14a9adc4e242db!2z44CSNjUwLTAwMDIg5YW15bqr55yM56We5oi45biC5Lit5aSu5Yy65YyX6YeO55S677yR5LiB55uu77yR4oiS77yTIO-8rO-8pe-8peODu--8qO-8pe-8qe-8rQ!5e0!3m2!1sja!2sjp!4v1699932398451!5m2!1sja!2sjp"
+allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                <div id="SNSBox">
+                    <div class="snscontainer animate__animated animate__slow fadeInTarget">
+
+                        <div class="tiktokbox">
+                            <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@muu_daybyday"
+                                data-unique-id="muu_daybyday" data-embed-type="creator"
+                                style="max-width: 400px; min-width: 288px;">
+                                <section> <a target="_blank"
+                                        href="https://www.tiktok.com/@muu_daybyday?refer=creator_embed">@muu_daybyday</a>
+                                </section>
+                            </blockquote>
+                        </div> <!-- /.tiktokbox -->
+
+                        <div class="twitterbox">
+                            <a class="twitter-timeline" data-width="300" data-height="405"
+                                href="https://twitter.com/tabekko_cafe?ref_src=twsrc%5Etfw" target="_blank">Tweets
+                                by
+                                tabekko_cafe</a>
+                        </div><!-- twitterbox -->
+                    </div><!-- /.snscontainer -->
+                </div><!-- /.wrapper -->
+
+            </section>
+
+
+            <!----------------------------------------- contact -->
+
+            <section id="contact" class="animate__animated animate__slow fadeInTarget">
+                <div class="contactTitle">
+                    <h2 class="mainTitle">Contact</h2>
+                </div>
+
+                <div class="formBox">
+                    <div>
+
+                    </div>
+                    <form action="#" method="post">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name">
+
+                        <label for="kana">Hiragana</label>
+                        <input type="text" id="kana" name="kana">
+
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email">
+
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="4"></textarea>
+
+                        <input type="submit" value="送信">
+                    </form>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!----------------------------------------- footer -->
+
+    <footer>
+        <div class="footerContainer">
+            <div class="footerNav">
+                <nav>
+                    <ul>
+                        <li><a href="#mainContainer">Home</a></li>
+                        <li><a href="#consept">Consept</a></li>
+                        <li><a href="#employees">Employees</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#access">Access</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#SNSBox">SNS</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="footerAddress">
+                <p>〒650-0002</p>
+                <p>兵庫県神戸市中央区北野町１丁目１−３</p>
+                <p>000-0000-0000</p>
+                <p>営業時間：11:00 - 20:00</p>
+                <p>定休日：月曜日</p>
+            </div>
+            <div class="footerLogo">
+                <img src="images/logo/headerlogo.png" alt="">
+            </div>
+        </div>
+
+        <div class="tiktokX">
+            <div class="bannar">
+                <p><a href="#"><img src="images/logo/X.png" alt=""></a></p>
+                <p><a href="#"><img src="images/logo/Tiktok.png" alt=""></a></p>
+            </div>
+            <div class="footerCopy">
+                <p><small>&copy;Tomoki KOSHIRO</small></p>
+            </div>
+        </div>
+
+    </footer>
+
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <script async src="https://www.tiktok.com/embed.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

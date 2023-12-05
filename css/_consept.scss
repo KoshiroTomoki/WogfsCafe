@@ -2,14 +2,17 @@
     margin: 0 auto 10rem;
     position: relative;
 
+    .mainTitle{
+        margin-bottom: 3rem;
+    }
+
     .conseptTextBox {
         position: absolute;
         top: 52.3%;
         left: 46%;
         transform: translate(-50%, -50%);
         background-color: rgba(255, 255, 255, 0.8);
-        border: black 1px solid;
-        max-width: 700px;
+        max-width: 500px;
         width: 100%;
         height: 69.5%;
         grid-column: 2/4;
@@ -21,7 +24,6 @@
             left: 50%;
             width: 90%;
             height: 60%;
-            border: black 0px solid;
         }
 
         @media (width <=450px) {

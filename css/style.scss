@@ -9,15 +9,38 @@
 @use "contact";
 @use "footer";
 
+// scroll-behavior: smooth;
+// color: black;
+// background-image: url(../images/logo/background.png);
+// background-size: cover;
+// background-attachment: fixed; /*--背景画像の固定--*/
+// background-repeat: no-repeat; /*--背景画像の繰り返し--*/
+// background-position: center center; /*--背景画像の位置--*/
+// width: 100%;
+// font-family: 'Chonburi', serif;
+// font-family: 'Kaisei Tokumin', serif;
+// font-family: 'Shippori Mincho B1', serif;
+// font-family: 'Kaisei Tokumin', serif;
+// font-family: 'Shippori Mincho B1', serif;
+// line-height: 1.7rem;
+// position: relative;
+
 body {
     scroll-behavior: smooth;
     color: black;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; /* 画面幅に合わせる */
+    height: 100vh; /* 画面高さに合わせる */
+    z-index: -1; /* コンテンツよりも背景を奥に配置 */
     background-image: url(../images/logo/background.png);
-    background-size: cover;
-    background-attachment: fixed; /*--背景画像の固定--*/
-    background-repeat: no-repeat; /*--背景画像の繰り返し--*/
-    background-position: center center; /*--背景画像の位置--*/
-    width: 100%;
+    background-size: cover; /* 画像を全体にカバー */
+    background-repeat: repeat;
+    background-position: center center;
+
+
     font-family: 'Chonburi', serif;
     font-family: 'Kaisei Tokumin', serif;
     font-family: 'Shippori Mincho B1', serif;
@@ -51,6 +74,3 @@ ul {
 a {
     color: black;
 }
-
-
-

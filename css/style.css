@@ -805,7 +805,6 @@ header .topLogo {
   width: 100%;
   height: 35%;
   background: white;
-  border: black solid 1px;
 }
 @media (width <= 768px) {
   #employees .employeesBackground {
@@ -815,7 +814,6 @@ header .topLogo {
 @media (width <= 600px) {
   #employees .employeesBackground {
     height: 28rem;
-    border: black solid 0px;
   }
 }
 #employees .swiper {

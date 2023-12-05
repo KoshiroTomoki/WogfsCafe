@@ -639,6 +639,7 @@ header .topLogo {
     left: 50%;
     width: 90%;
     height: 60%;
+    border: black 0px solid;
   }
 }
 @media (width <= 450px) {
@@ -814,6 +815,7 @@ header .topLogo {
 @media (width <= 600px) {
   #employees .employeesBackground {
     height: 28rem;
+    border: black solid 0px;
   }
 }
 #employees .swiper {
@@ -840,7 +842,7 @@ header .topLogo {
 @media (width <= 450px) {
   #employees .swiper .slider .swiper-wrapper .swiper-slide .employeesImg {
     width: auto;
-    border: black solid 1px;
+    border: rgb(223, 223, 223) solid 2px;
   }
 }
 #employees .swiper .slider .swiper-wrapper .swiper-slide .employeesImg img {
@@ -880,7 +882,6 @@ header .topLogo {
     width: 100%;
     margin-top: 3rem;
     height: 20vh;
-    border: black solid 1px;
   }
 }
 #employees .swiper .slider .swiper-wrapper .swiper-slide .employeesText h3 {
@@ -919,7 +920,7 @@ header .topLogo {
 }
 #employees .swiper .slider .swiper-button-next,
 #employees .swiper .slider .swiper-button-prev {
-  color: #212121;
+  color: #b5b5b5;
 }
 #employees .swiper .slider .displayNone {
   opacity: 0;
@@ -1049,90 +1050,97 @@ header .topLogo {
   }
 }
 
-.menuFood {
+@media (width <= 768px) {
+  .menuBorderBox {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: rgb(220, 220, 220) 2px solid;
+  }
+}
+.menuBorderBox .menuFood {
   display: flex;
   flex-direction: column;
   margin: 5rem;
   background-color: rgba(255, 255, 255, 0.8);
-  border: black 2px solid;
+  border: rgb(220, 220, 220) 2px solid;
 }
 @media (width <= 768px) {
-  .menuFood {
+  .menuBorderBox .menuFood {
     margin: 1rem;
+    border: rgb(220, 220, 220) 0px solid;
   }
 }
-.menuFood h3 {
+.menuBorderBox .menuFood h3 {
   text-align: center;
   margin: 3rem 0 1.5rem;
   font-size: 2rem;
 }
 @media (width <= 400px) {
-  .menuFood h3 {
+  .menuBorderBox .menuFood h3 {
     font-size: 1.5rem;
   }
 }
-.menuFood .menuPicture {
+.menuBorderBox .menuFood .menuPicture {
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
 }
-.menuFood .menuPicture .menuPicture01 {
+.menuBorderBox .menuFood .menuPicture .menuPicture01 {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-.menuFood .menuPicture .menuText {
+.menuBorderBox .menuFood .menuPicture .menuText {
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 @media (width <= 400px) {
-  .menuFood .menuPicture .menuText {
+  .menuBorderBox .menuFood .menuPicture .menuText {
     width: 250px;
   }
 }
-.menuFood .menuTitle {
+.menuBorderBox .menuFood .menuTitle {
   font-size: 1.5rem;
   margin: 2rem 0 1rem;
 }
 @media (width <= 400px) {
-  .menuFood .menuTitle {
+  .menuBorderBox .menuFood .menuTitle {
     font-size: 1.2rem;
   }
 }
-.menuFood p {
+.menuBorderBox .menuFood p {
   text-align: center;
   max-width: 20rem;
   margin-bottom: 2rem;
   padding: 0 1rem;
 }
 @media (width <= 400px) {
-  .menuFood p {
+  .menuBorderBox .menuFood p {
     font-size: 0.8rem;
   }
 }
-.menuFood .img7 {
+.menuBorderBox .menuFood .img7 {
   width: 14.4rem;
   height: 17.5rem;
 }
 @media (width <= 768px) {
-  .menuFood .img7 {
+  .menuBorderBox .menuFood .img7 {
     margin: 1rem;
   }
 }
-.menuFood .img2 {
+.menuBorderBox .menuFood .img2 {
   transform: translateY(2rem);
 }
-.menuFood img {
+.menuBorderBox .menuFood img {
   width: 20rem;
   height: 17.5rem;
   transform: translateY(1rem);
 }
 @media (width <= 768px) {
-  .menuFood img {
+  .menuBorderBox .menuFood img {
     width: 15rem;
     height: 12.5rem;
     padding: 1rem;
@@ -1317,6 +1325,7 @@ footer .footerContainer .footerLogo {
     height: 100%;
     padding: 0;
     margin-right: 0;
+    margin-bottom: 2rem;
   }
 }
 footer .tiktokX {

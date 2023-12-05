@@ -34,6 +34,7 @@
 
         @media (width <=600px) {
             height: 28rem;
+            border: black solid 0px;
         }
     }
 
@@ -66,7 +67,7 @@
 
                         @media (width <=450px) {
                             width: auto;
-                            border: black solid 1px;
+                            border: rgb(223, 223, 223) solid 2px;
                         }
 
                         img {
@@ -105,7 +106,6 @@
                             width: 100%;
                             margin-top: 3rem;
                             height: 20vh;
-                            border: black solid 1px;
                         }
 
 
@@ -146,7 +146,7 @@
 
             .swiper-button-next,
             .swiper-button-prev {
-                color: #212121;
+                color: #b5b5b5;
             }
 
             .displayNone {

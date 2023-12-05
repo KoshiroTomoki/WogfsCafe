@@ -14,13 +14,15 @@ body {
     color: black;
     background-image: url(../images/logo/background.png);
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: fixed; /*--背景画像の固定--*/
+    background-repeat: no-repeat; /*--背景画像の繰り返し--*/
+    background-position: center center; /*--背景画像の位置--*/
+    width: 100%;
     font-family: 'Chonburi', serif;
     font-family: 'Kaisei Tokumin', serif;
     font-family: 'Shippori Mincho B1', serif;
     font-family: 'Kaisei Tokumin', serif;
     font-family: 'Shippori Mincho B1', serif;
-    ;
     line-height: 1.7rem;
     position: relative;
 

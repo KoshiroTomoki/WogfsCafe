@@ -83,3 +83,12 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 });
+
+
+
+
+document.addEventListener('scroll', function() {
+    const yPos = -window.scrollY / 2;
+    const bg = document.querySelector('.background-wrapper');
+    bg.style.backgroundPositionY = yPos + 'px';
+});
